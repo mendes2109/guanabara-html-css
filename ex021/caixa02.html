@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin: 0;
+        }
+        header{
+            background-color: white;
+            padding: 10px 0 0 0;
+            margin: 0px; 
+            text-align: center;
+        }
+        header > h1{
+            display: inline-block;
+            box-shadow: inset 1px 1px 8px rgba(0, 0, 0, 0.151);
+        }
+
+
+        nav{
+            background-color: rgb(124, 170, 170);
+            padding: 4px;
+            margin: 0;
+            box-shadow: 2px 2px 11px rgba(0, 0, 0, 0.274);
+        }
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            padding: 0 10px;
+        }
+        nav > a:hover{
+            text-decoration: underline;
+            color: #d8d8d8;
+        }
+
+        main{
+            background-color: aliceblue;
+            padding: 15px;
+            margin: 15px;
+        }
+        article{
+            background-color: #dbedfd;
+            padding: 5px;
+        }
+        article > aside{
+            background-color: #aebac5;
+        }
+
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin: 0;
+        }
+        footer > p{
+            margin: 0;
+        }
+
+        div#bola{
+            background-color: white;
+            height: 100px;
+            width: 100px;
+            margin: 10px auto;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Janela de Trasnferência</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Contratações do São Paulo para a temporada</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta neque earum harum et voluptatum odit voluptas unde laudantium ipsa, ea ratione vitae non esse veniam ipsam iste a tempora recusandae? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus nisi et esse, consequuntur doloribus, eum illo quis quasi dignissimos adipisci blanditiis doloremque earum ratione mollitia vitae accusantium neque eveniet ad.</p>
+                <aside>
+                    <p>Artigo escrito por Pedro Mendes</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por SPFC Notices</p>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>

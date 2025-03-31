@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/css.ico" type="image/x-icon">
+    <title>Modelo de Caixas</title>
+    <style>
+        h1{
+            background-color: lightgreen;
+            height: 300px;
+            width: 300px;
+
+            border: 10px solid darkslategray ;
+
+            padding: 10px;
+
+            margin: 20px auto 40px auto;
+
+            outline: 5px dashed rgb(11, 148, 52);
+        }
+
+        a{
+            border: 10px solid red;
+        }
+
+        #exdashed{
+            border-style: dashed;
+            text-align: center;
+            border-width: 5px;
+        }
+        #exdotted{
+            border-style: dotted;
+            text-align: center;
+            border-width: 5px;
+        }
+        #exdouble{
+            border-style: double;
+            text-align: center;
+            border-width: 5px;
+        }
+        #exgroove{
+            border-style: groove;
+            text-align: center;
+            border-width: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de caixa box-level</h1>
+    <p>Parágrafos também são exemplos de box-level, mas os <a href="#">links são exemplos de caixas inline-level</a>. Vamos ver como tudo isso funciona.</p>
+
+    <h2>Tipos de border style</h2>
+    <p id="exdashed">Exemplo Dashed</p>
+    <p id="exdotted">Exemplo Dotted</p>
+    <p id="exdouble">Exemplo Double</p>
+    <p id="exgroove">Exemplo Groove</p>
+</body>
+</html>
