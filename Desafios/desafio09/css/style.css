@@ -1,0 +1,26 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(41, 41, 41);
+    color: white;
+}
+h1,p{
+    text-align: center;
+}
+
+div{
+    padding: 30px;
+    width: 405px;
+    margin: auto;
+}
+
+iframe{
+    display: block;
+    margin: auto;
+    width: 96%;
+    max-width: 560px;
+}
+
+img#voltar{
+    display: block;
+    margin: auto;
+}
