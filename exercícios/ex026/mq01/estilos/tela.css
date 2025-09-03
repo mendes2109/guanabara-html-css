@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-/* Estilo para telas */
+/* Estilos para telas */
 
 *{
     margin: 0px;
@@ -13,26 +13,9 @@ html{
 }
 
 header{
-    background-color: rgb(187, 187, 187);
-    
-}
-header > h1{
-    text-align: center;
-    padding: 20px;
-}
-
-menu ul{
-    list-style-type: none;
     background-color: gray;
 }
-menu li{
-    display: inline-block;
-    padding: 10px;
-    color: white;
-}
 
-article{
-    width: 600px;
-    display: block;
-    margin: auto;
+header h1{
+    text-align: center;
 }
