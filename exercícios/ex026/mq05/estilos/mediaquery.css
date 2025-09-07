@@ -1,0 +1,30 @@
+/* 
+Typical Device Breakpoints
+
+
+- Mobile: 320px to 480px, covering smartphones in portrait mode.
+    
+- Tablet: 481px to 768px, suitable for tablets in portrait and small laptops.
+    
+- Small Desktop: 769px to 1024px, accommodating tablets in landscape and smaller laptops.
+    
+- Large Desktop: 1025px and above, for desktop monitors and larger laptops.
+*/
+
+@media screen and (min-width: 481px){
+    i#burguer{
+        display: none;
+    }
+    menu{
+        display: block;
+        
+    }
+    menu ul li{
+        display: inline-block;
+    }
+
+    main{
+        min-width: 481px;
+        max-width: 650px;
+    }
+}
